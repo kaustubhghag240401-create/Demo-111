@@ -25,7 +25,7 @@ pipeline {
          stage('deplyo') {
             steps {
                 echo 'Hello World'
-                sh 'npm start'
+                sh 'npm run build'
             }
         }
     }
